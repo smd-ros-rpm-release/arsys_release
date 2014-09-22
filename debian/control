@@ -1,0 +1,12 @@
+Source: ros-hydro-ar-sys
+Section: misc
+Priority: extra
+Maintainer: Hamdi Sahloul <sahloul@race.u-tokyo.ac.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-cv-bridge, ros-hydro-dynamic-reconfigure, ros-hydro-geometry-msgs, ros-hydro-image-transport, ros-hydro-pal-vision-segmentation, ros-hydro-roscpp, ros-hydro-tf, ros-hydro-visualization-msgs
+Homepage: http://www.uco.es/investiga/grupos/ava/node/26
+Standards-Version: 3.9.2
+
+Package: ros-hydro-ar-sys
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-cv-bridge, ros-hydro-dynamic-reconfigure, ros-hydro-geometry-msgs, ros-hydro-image-transport, ros-hydro-pal-vision-segmentation, ros-hydro-roscpp, ros-hydro-tf, ros-hydro-visualization-msgs
+Description: 3D pose estimation ROS package using ArUco marker boards.
