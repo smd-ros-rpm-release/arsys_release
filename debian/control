@@ -1,0 +1,12 @@
+Source: ros-groovy-ar-sys
+Section: misc
+Priority: extra
+Maintainer: Hamdi Sahloul <sahloul@race.u-tokyo.ac.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-groovy-catkin, ros-groovy-cv-bridge, ros-groovy-dynamic-reconfigure, ros-groovy-geometry-msgs, ros-groovy-image-transport, ros-groovy-roscpp, ros-groovy-tf, ros-groovy-visualization-msgs
+Homepage: http://wiki.ros.org/ar_sys
+Standards-Version: 3.9.2
+
+Package: ros-groovy-ar-sys
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-cv-bridge, ros-groovy-dynamic-reconfigure, ros-groovy-geometry-msgs, ros-groovy-image-transport, ros-groovy-roscpp, ros-groovy-tf, ros-groovy-visualization-msgs
+Description: 3D pose estimation ROS package using ArUco marker boards.
